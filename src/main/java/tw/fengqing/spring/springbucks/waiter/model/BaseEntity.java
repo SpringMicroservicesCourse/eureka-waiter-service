@@ -19,7 +19,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-// 增加了jackson-datatype-hibernate5就不需要這個Ignore了
+// 增加了jackson-datatype-hibernate6就不需要這個Ignore了
 //@JsonIgnoreProperties(value = {"hibernateLazyInitializer"})
 public class BaseEntity implements Serializable {
     @Id
